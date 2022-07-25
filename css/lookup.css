@@ -1,0 +1,169 @@
+h1 {
+    border-bottom: solid 1px white;
+    padding-bottom: .5vw;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+h2 {
+    padding-top: 1.5vw !important;
+    padding-bottom:1.5vw !important;
+}
+
+#lookup {
+    width: 80%;
+    color: white !important;
+}
+
+#your-wl-spots {
+    font-size: 1.6vw;
+    line-height: 2vw;
+}
+
+#market-allocation {
+    border-top: solid 1px white;
+    padding-top: .5vw;
+}
+
+#wl-section {
+    background: #bf0d00a5;
+    border: solid .1px white;
+    width: 90%;
+    overflow-y: scroll;
+    margin: auto;
+    text-align: center;
+    padding-top: .5vw;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    padding: 1.5vw;
+}
+
+.wl-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+.wl-discord, .wl-address {
+    width: 50%;
+}
+
+.wl-discord {
+    text-align: left;
+}
+
+.wl-address {
+    text-align: right;
+}
+
+#wl-section > .wl-row:nth-child(1) {
+    background: #BF0C00 !important;
+}
+
+#wl-section > .wl-row:nth-of-type(odd) {
+    background: #ac443c;
+
+}
+
+select {
+    text-align: center;
+    font-size: 1.5vw !important;
+    line-height: 2vw;
+    width: 40%;
+    margin-right: 1%;
+}
+
+#select-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+#spacer {
+    height: 2vw;
+}
+
+#download-link {
+    width: 1.8%;
+}
+
+#download-button {
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+
+    .wl-row {
+        display: block;
+        padding: 8px;
+    }
+
+    #discord-header, #address-header {
+        font-size: 2vh;
+        line-height: 2vh;
+    }
+
+    .wl-discord, .wl-address {
+        width: 100%;
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    #lookup {
+        width: 97%;
+    }
+
+    #your-wl-spots {
+        font-size: 3.2vh;
+        line-height: 3.4vh;
+    }
+
+    h1 {
+        border-bottom: solid 1px white;
+        padding-bottom: 4vh;
+    }
+
+    #market-allocation {
+        border-top: solid 1px white;
+        padding-top: 4vh !important;
+    }
+
+    h2 {
+        margin-top: 4vh !important;
+        margin-bottom:4vh !important;
+    }
+
+    #wl-section {
+        width: 100%;
+        padding-top:4vh !important;
+        font-size: 2vh;
+        line-height: 2.2vh;
+    }
+
+    select {
+        font-size: 2vh !important;
+        line-height: 2vh !important;
+        width: 90%;
+        margin-bottom: 4vh;
+    }
+
+    #select-wrapper {
+        display: initial;
+    }
+
+    #download-button {
+        width: 3%;
+    }
+
+    #spacer {
+        height: 2vh;
+    }
+
+
+}

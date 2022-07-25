@@ -1,0 +1,71 @@
+
+.body {
+    background-color: white;
+}
+
+h1, h2, h3, h4 {
+    color: black !important;
+}
+
+.partner-collection {
+    background-color: white;
+    border-color: black;
+    color: black !important;
+}
+
+.partner-collection img {
+    border-color: black;
+    border-width: 1px;
+}
+
+.partner-collection h3 {
+    color: black !important;
+}
+
+#selector-div button{
+    color: black  !important;
+}
+
+#selector-div {
+    border-color: black;
+}
+
+#selector-div button.active {
+    color: rgb(229, 198, 24) !important;
+}
+
+#selector-div button:hover {
+    color: rgb(229, 198, 24) !important;
+}
+
+.partner-collection button {
+    background-color: rgb(229, 198, 24) !important;
+}
+
+.partner-collection button:hover {
+    background-color: rgb(254, 233, 115) !important;
+}
+
+.partner-collection button.purchased {
+    background-color: #9c9696 !important;
+}
+
+.partner-collection button.purchased:hover {
+    background-color: #9c9696 !important;
+    color: white !important;
+}
+
+.token-balance-float {
+    border-color: black;
+}
+
+.loading-div {
+    border-color: black;
+}
+
+
+@media screen and (max-width: 991px) {
+
+
+
+}

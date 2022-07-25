@@ -1,0 +1,100 @@
+
+#modify-input input, #modify-input textarea, #create-input input, #create-input textarea {
+    width: 85%;
+    font-size: .9vw;
+    line-height: 1.5vw;
+    border: solid black 1px;
+    margin-bottom: .4vw;
+    color: black;
+}
+
+#type-select {
+    width: 85%;
+    font-size: .9vw !important;
+    line-height: 1.5vw !important;
+    border: solid black 1px;
+    margin-bottom: .4vw;
+}
+
+#market-section {
+    padding-top: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#modify-input a, #create-input a {
+    font-size: .9vw;
+    line-height: 1.5vw;
+}
+
+#listing-select-div {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+#listing-select {
+    font-size: 1.5vw !important;
+}
+
+.end-time, .start-time {
+    font-size: .94vw;
+    line-height: .94vw;
+}
+
+.partner-collection .website {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 10%;
+}
+
+#create-input, #modify-input {
+    width: 40%;
+}
+
+@media screen and (max-width: 991px) {
+
+    #listing-select {
+        font-size: 3vh !important;
+    }
+
+    #create-input, #modify-input {
+        width: 90%;
+    }
+
+    .end-time, .start-time {
+        font-size: 1.9vh !important;
+        line-height: 2vh !important;   
+    }
+
+    #modify-input input, #modify-input textarea, #create-input input, #create-input textarea {
+        width: 95%;
+        font-size: 2vh;
+        line-height: 2vh;
+        border: solid black 1px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        min-height: 25px;
+    }
+
+    #type-select {
+        width: 95%;
+        font-size: 2vh !important;
+        line-height: 2vh !important;
+        border: solid black 1px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        min-height: 25px;
+    }
+
+    #modify-input a, #create-input a {
+        font-size: 2vh;
+        line-height: 2vh;
+    }
+
+    #modify-input button {
+        margin-top: 10px;
+    }
+}
