@@ -120,7 +120,7 @@ const addListing = async () => {
         }
     }
     catch (error) {
-        if ((error.message).includes("You are not Authorized for this ERC20 Contract!")) {
+        if ((error.message).includes("You are not Authorized")) {
             await displayErrorMessage(`You are not authorized to add listings for $SOULS!`);
         }
         else if ((error.message).includes("User denied transaction signature")) {
