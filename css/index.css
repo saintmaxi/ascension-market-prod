@@ -20,6 +20,10 @@
   width: 33.1vw;
 }
 
+#main-heading {
+  margin-top: 9vh;
+}
+
 /* start header/navbar styling */
 
 #top {
@@ -269,6 +273,11 @@
 
   #models img {
     width: 100vw;
+  }
+
+  #main-heading {
+    margin-top: 0;
+    display: none;
   }
 
   .left-number,
